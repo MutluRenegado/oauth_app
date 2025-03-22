@@ -1,4 +1,3 @@
-ROUTES/AUTH.JS (Authentication Routes)
 import express from "express";
 import { getAuthUrl, generateTokens, getUserInfo } from "../oauth.js";
 const router = express.Router();
