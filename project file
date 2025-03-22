@@ -1,0 +1,12 @@
+wix-oauth-integration-with-login/
+│── .env
+│── config.js
+│── app.js
+│── oauth.js
+│── middleware/
+│   └── auth.js
+│── routes/
+│   ├── auth.js
+│   ├── dashboard.js
+│── package.json
+│── README.md
