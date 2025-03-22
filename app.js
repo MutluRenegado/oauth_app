@@ -1,4 +1,3 @@
-// APP.JS (Main Express Application)
 import express from "express";
 import session from "express-session";
 import config from "./config.js";
