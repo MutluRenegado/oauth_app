@@ -26,4 +26,3 @@ export async function getUserInfo(accessToken) {
     if (!response) throw new Error("Failed to retrieve user info");
     return response;
 }
-
