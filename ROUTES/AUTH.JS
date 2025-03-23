@@ -1,5 +1,6 @@
-import express from "express";
-import { getAuthUrl, generateTokens, getUserInfo } from "../oauth.js";
+const express = require("express");
+const { getAuthUrl, generateTokens, getUserInfo } = require("../oauth.js");
+
 const router = express.Router();
 
 router.get("/login", async (req, res) => {
@@ -21,5 +22,4 @@ router.get("/callback", async (req, res) => {
     }
 });
 
-export default router;
-
+module.exports = router;
