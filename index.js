@@ -1,5 +1,6 @@
 const express = require('express');
-const { getAuthUrl, generateTokens, getUserInfo } = require('./auth.js'); // Assuming auth.js has these functions
+const { getAuthUrl, generateTokens, getUserInfo } = require('./oauth.js'); // Updated to use oauth.js
+
 const dotenv = require('dotenv');
 
 dotenv.config();
